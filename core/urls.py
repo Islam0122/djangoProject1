@@ -12,7 +12,7 @@ urlpatterns = [
                   path('api/v1/menu/', include('apps.Menu.urls')),
                   path('api/v1/news/', include('apps.News.urls')),
                   path('api/v1/service/', include('apps.Service.urls')),
-                  path('api/v1/qr_code/', include('apps.QR_code.urls')),
+                  # path('api/v1/qr_code/', include('apps.QR_code.urls')),
 
               ] + urls_swagger
 if settings.DEBUG:
