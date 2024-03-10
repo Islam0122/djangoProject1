@@ -109,7 +109,7 @@ EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
 
 # Use the following only in development
 if DEBUG:
-    from .prod import *
+    from .local import *
 else:
     from .local import *
 
