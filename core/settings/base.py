@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     # Service
     'apps.Service',
     # Qr_code
-    'apps.QR_code',
+    # 'apps.QR_code',
     # # Order
     # 'apps.Order.Order',
     # # News
